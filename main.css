@@ -1,0 +1,151 @@
+body {
+    background: url(https://storage.pixteller.com/designs/designs-images/2019-03-27/05/simple-background-backgrounds-passion-simple-1-5c9b95c124328.png);
+    color: white;
+    font-family: 'Georgia'; 
+}
+contact {
+    text-align: center;
+    color: black;
+    font-family: 'Georgia', sans-serif;
+    font-weight: lighter
+}
+portfolio {
+    align-content: grid;
+
+}
+h1 {
+	text-align: center;
+	color: black;
+	font-family: 'Georgia', sans-serif;
+	font-weight: normal;
+	font-variant: small-caps;
+	font-size: 40px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+}
+
+h4 {
+    font-size: 40px; 
+    font-weight: lighter;
+    border: 3px solid #ffe5c3;
+	border-radius: 10px;
+	display: inline-block;
+	margin: 15px auto;
+	width: 10%;
+	padding: 0 40px;
+    align-content: center;
+}
+h5{
+    text-align: left
+    font-family: 'Georgia', sans-serif;
+    color: white;
+    font-size: 30px;
+    border: 5px solid #ffe5c3;
+    border-radius: 10px;
+}
+
+
+h20{
+    text-align: left
+    font-family: 'Georgia', sans-serif;
+    color: white;
+}
+
+h40{
+    font-family: 'Georgia', sans-serif;
+    color:forestgreen; 
+    font-size: 12px;
+    font-weight: bold;
+}
+
+p2{
+      font-family: 'Georgia', sans-serif;
+    color:black; 
+    font-size: 12px;
+    
+}
+p3{
+    font-family: 'Georgia', sans-serif;
+    color:white;
+    font-size: 24px;
+}
+img {
+    align-items: center;
+    
+}
+
+#menu li{
+font-size: large;
+float: center;
+margin-right: 100px;}
+
+#menu 
+{font-variant: small-caps;
+width: 930px;
+margin: auto;
+font-family: 'Georgia', sans-serif;
+color: #ffe5c3;
+}
+
+#menu li{
+font-size: large;
+float: left;
+margin-right: 100px;}
+
+{
+  box-sizing: scale;
+}
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+
+.row {
+  margin: 8px -16px;
+}
+
+.row,
+.row > .column {
+  padding: 30px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+
+.row:after {
+  content: "valkingburg.jpg","boulder.png";
+  display: table-row;
+  clear: both;
+}
+
+
+.content {
+  background-color: white;
+  padding: 30px;
+}
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
